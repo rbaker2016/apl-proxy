@@ -19,8 +19,8 @@ else
  exit 1
 fi
 
-cp -rf /src/* /usr/share/nginx/html
+cp -rf /code/* /usr/share/nginx/html
 
 #Cleaning up after ourselves
-rm -rf /src
+rm -rf /code
 rm -rf /conf
