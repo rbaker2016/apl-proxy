@@ -4,4 +4,4 @@
 echo "Printing build log"
 cat /tmp/build.log
 
-exec @
+exec nginx -g "daemon off;"
